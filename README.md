@@ -20,7 +20,7 @@ To start this server once cloned, simply run:
 deno task dev
 ```
 
-# Tips
+## Tips
 
 I recommend you optimize SVGs with SVG Optimizer (CLI) or [SVGOMG](https://jakearchibald.github.io/svgomg/) (GUI).
 
