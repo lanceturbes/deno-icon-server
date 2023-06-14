@@ -14,7 +14,19 @@ curl -fsSL https://deno.land/x/install/install.sh | sh
 
 ## Usage
 
-To start this server once cloned, simply run:
+### Compiling an Executable
+
+To compile the server into a self-contained executable file, run:
+
+```bash
+deno task compile
+```
+
+Then, you can run the compiled program from the `dist` folder.
+
+### Launching the development server
+
+To start this server directly with hot-reloading once cloned, simply run:
 
 ```bash
 deno task dev

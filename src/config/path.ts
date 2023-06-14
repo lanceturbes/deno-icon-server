@@ -1,1 +1,1 @@
-export const ASSETS_DIR = `${Deno.cwd()}/src/assets`;
+export const ASSETS_DIR = `${Deno.cwd()}/static`;

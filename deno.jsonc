@@ -1,6 +1,7 @@
 {
   "tasks": {
-    "dev": "deno run --watch --allow-net --allow-read src/app.ts"
+    "dev": "deno run --watch --allow-net --allow-read src/app.ts",
+    "compile": "deno compile --unstable --output dist/server src/app.ts"
   },
   "imports": {
     "@/api/middleware": "./src/api/middleware/index.ts",
