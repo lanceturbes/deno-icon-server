@@ -3,13 +3,13 @@
     "dev": "deno run --watch --allow-net --allow-read src/app.ts"
   },
   "imports": {
-    "@/assets": "./src/assets",
-    "@/api/routes": "./src/api/routes/index.ts",
-    "@/config": "./src/config/index.ts",
     "@/api/middleware": "./src/api/middleware/index.ts",
+    "@/api/routes": "./src/api/routes/index.ts",
+    "@/assets": "./src/assets",
+    "@/config": "./src/config/index.ts",
     "@/services": "./src/services/index.ts",
     "@/types": "./src/types/index.ts",
-    "oak": "https://deno.land/x/oak@v12.5.0/mod.ts",
-    "cors": "https://deno.land/x/cors@v1.2.2/mod.ts"
+    "cors": "https://deno.land/x/cors@v1.2.2/mod.ts",
+    "oak": "https://deno.land/x/oak@v12.5.0/mod.ts"
   }
 }
