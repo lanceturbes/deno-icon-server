@@ -26,6 +26,8 @@ I recommend you optimize SVGs with SVG Optimizer (CLI) or [SVGOMG](https://jakea
 
 ## License
 
+This project is not affiliated with Deno (the company/project/group).
+
 Assets:
 
 [Deer/Stag Icon](https://freesvg.org/stag-logo-vector-clip-art)
