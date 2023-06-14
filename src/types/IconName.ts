@@ -1,1 +1,1 @@
-export type IconName = "deno" | "zelda";
+export type IconName = "deno" | "stag";
