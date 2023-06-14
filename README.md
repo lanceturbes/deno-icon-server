@@ -1,6 +1,6 @@
 # Deno Icon File Server
 
-This is a simple file server written in TypeScript, powered by Deno, which provides access to SVG assets contained within a static directory
+This is a simple file server written in TypeScript, powered by Deno, which provides access to SVG assets contained within a static directory.
 
 ## Installation
 
