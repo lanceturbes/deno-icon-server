@@ -7,7 +7,7 @@ class IconsService {
     for await (const icon of Deno.readDir(`${ASSETS_DIR}/icons`)) {
       iconList.push({
         name: icon.name.split(".")[0],
-        url: `${API_URL}/icons/${icon.name}`,
+        url: `${API_URL}/icons/${icon.name.split(".")[0]}`,
       });
     }
     return iconList;
